@@ -1,8 +1,8 @@
 export class Alumno {
-constructor(username, DNI, edad){
+constructor(username, dni, edad){
     this.username = username;
-    this.DNI = DNI;
-    this.Edad = edad;
+    this.dni = dni;
+    this.edad = edad;
 }
 toString() {
  return this.username;   
