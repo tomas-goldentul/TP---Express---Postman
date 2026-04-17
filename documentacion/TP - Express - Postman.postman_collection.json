@@ -1,0 +1,379 @@
+{
+	"info": {
+		"_postman_id": "33cde159-3705-4a72-9164-51e85cd76faa",
+		"name": "TP - Express - Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "a1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/saludar/tobi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"saludar",
+						"tobi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "a3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/validarfecha/2025/05/14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"validarfecha",
+						"2025",
+						"05",
+						"14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/sumar?n1=5&n2=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"sumar"
+					],
+					"query": [
+						{
+							"key": "n1",
+							"value": "5"
+						},
+						{
+							"key": "n2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/restar?n1=10&n2=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"restar"
+					],
+					"query": [
+						{
+							"key": "n1",
+							"value": "10"
+						},
+						{
+							"key": "n2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/multiplicar?n1=10&n2=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"multiplicar"
+					],
+					"query": [
+						{
+							"key": "n1",
+							"value": "10"
+						},
+						{
+							"key": "n2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/matematica/dividir?n1=10&n2=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"matematica",
+						"dividir"
+					],
+					"query": [
+						{
+							"key": "n1",
+							"value": "10"
+						},
+						{
+							"key": "n2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/omdb/searchbypage?getbyomdbid=&imdbID=tt0089927",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"omdb",
+						"searchbypage"
+					],
+					"query": [
+						{
+							"key": "getbyomdbid",
+							"value": ""
+						},
+						{
+							"key": "imdbID",
+							"value": "tt0089927"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/omdb/searchcomplete?search=cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"omdb",
+						"searchcomplete"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "cars"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/omdb/getbyomdbid?imdbID=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"omdb",
+						"getbyomdbid"
+					],
+					"query": [
+						{
+							"key": "imdbID",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "d1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/alumnos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"alumnos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "d2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/alumnos/22888444",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"alumnos",
+						"22888444"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "d3",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Tomas\",\r\n  \"dni\": \"12345678\",\r\n  \"edad\": 18\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/alumnos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"alumnos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "d4",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Tomas\",\r\n  \"dni\": \"12345678\",\r\n  \"edad\": 18\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/alumnos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"alumnos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
