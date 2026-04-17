@@ -19,7 +19,7 @@ http://localhost:/omdb/searchcomplete?search={disney}
 
 http://localhost:/omdb/getbyomdbid?imdbID={20}
 
-http://localhost:	/alumnos
+http://localhost:/alumnos
 
 http://localhost:/alumnos/:dni
 
